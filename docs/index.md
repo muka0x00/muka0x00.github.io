@@ -1,7 +1,8 @@
 ---
 title: muka's Blog
-description: Welcome to Oxmuka's digital space. a place where I share my journey through code, security, and curiosity.
 ---
+
+## Welcome to Oxmuka's digital space. a place where I share my journey through code, security, and curiosity.
 
 ## 🪴 Get Started
 
