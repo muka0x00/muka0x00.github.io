@@ -8,4 +8,3 @@ description: "Welcome to Oxmuka's digital space. a place where I share my journe
 > 
 > **وَما اِستَعصى عَلى قَومٍ مَنالٌ · إِذا الإِقدامُ كانَ لَهُم رِكابا**
 
----
