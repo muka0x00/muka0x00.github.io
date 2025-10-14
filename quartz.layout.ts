@@ -40,21 +40,21 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      title: "",
-      filterFn: undefined, 
-      mapFn: (tree) => {
-        const openAll = (node: Record<string, any>) => {
-          for (const child of Object.values(node)) {
-            child.collapsed = false;
-            if (child.children) {
-              openAll(child.children);
-            }
-          }
-        };
-        openAll(tree);
-      },
-    }),
+  Component.Explorer({
+    title: "", // شيل العنوان
+    filterFn: undefined, 
+    mapFn: (tree) => {
+      const openAll = (node: Record<string, any>) => {
+        for (const child of Object.values(node)) {
+          child.collapsed = false;
+          child.forceOpen = true; // يفتح الكل دايمًا
+          if (child.children) openAll(child.children);
+        }
+      };
+      openAll(tree);
+    },
+  }),
+
   ],
   right: [
     Component.Graph(),
@@ -77,22 +77,22 @@ export const defaultListPageLayout: PageLayout = {
         },
         { Component: Component.Darkmode() },
       ],
-    }),
-    Component.Explorer({
-      title: "",
-      filterFn: undefined, 
-      mapFn: (tree) => {
-        const openAll = (node: Record<string, any>) => {
-          for (const child of Object.values(node)) {
-            child.collapsed = false; 
-            if (child.children) {
-              openAll(child.children);
-            }
-          }
-        };
-        openAll(tree);
-      },
-    }),
+      }),
+  Component.Explorer({
+    title: "", // شيل العنوان
+    filterFn: undefined, 
+    mapFn: (tree) => {
+      const openAll = (node: Record<string, any>) => {
+        for (const child of Object.values(node)) {
+          child.collapsed = false;
+          child.forceOpen = true; // يفتح الكل دايمًا
+          if (child.children) openAll(child.children);
+        }
+      };
+      openAll(tree);
+    },
+  }),
+
   ],
   right: [],
 }
