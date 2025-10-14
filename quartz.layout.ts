@@ -41,21 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
 
-  Component.Explorer({
-    title: "",
-    filterFn: undefined,
-    folderClickBehavior: "link", 
-    mapFn: (tree) => {
-      const openAll = (node: Record<string, any>) => {
-        for (const child of Object.values(node)) {
-          child.collapsed = false
-          if (child.children) openAll(child.children)
-        }
-      }
-      openAll(tree)
-      return tree
-    },
-  }),
+  Component.Explorer(),
 
 
   ],
@@ -82,21 +68,9 @@ export const defaultListPageLayout: PageLayout = {
       ],
       }),
       
-  Component.Explorer({
-    title: "",
-    filterFn: undefined,
-    folderClickBehavior: "link", 
-    mapFn: (tree) => {
-      const openAll = (node: Record<string, any>) => {
-        for (const child of Object.values(node)) {
-          child.collapsed = false
-          if (child.children) openAll(child.children)
-        }
-      }
-      openAll(tree)
-      return tree
-    },
-  }),
+  Component.Explorer(
+
+  ),
 
   ],
   right: [],
