@@ -23,4 +23,4 @@ title: muka’s Blog
 - 📍 Based in Terminal  
 - 💬 Always learning, building, and breaking stuff  
 
-📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/0xmuka/) | [GitHub](https://github.com/0xmuka) | [Youtube]()  | [X - Twitter](https://x.com/muka0x00)
+📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/0xmuka/) | [GitHub](https://github.com/0xmuka) | [Youtube](https://www.youtube.com/@0xmuka)  | [X - Twitter](https://x.com/muka0x00)

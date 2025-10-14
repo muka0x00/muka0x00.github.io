@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
       GitHub: "https://github.com/0xmuka",
       "Linkedin": "https://linkedin.com/in/0xmuka",
       "Discord Community": "https://discord.gg/5rb9UkX4MM",
-      "Twitter | X": "https://x.com/muka0x00",
+      "Twitter | X": "https://x.com/muka0x00",  
     },
   }),
 }
