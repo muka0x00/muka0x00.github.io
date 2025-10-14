@@ -1,6 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import "./styles/custom.scss"
 
 /**
  * Quartz 4 Configuration
