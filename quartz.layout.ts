@@ -40,20 +40,22 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+
   Component.Explorer({
-    title: "", // شيل العنوان
-    filterFn: undefined, 
+    title: "",
+    filterFn: undefined,
     mapFn: (tree) => {
       const openAll = (node: Record<string, any>) => {
         for (const child of Object.values(node)) {
-          child.collapsed = false;
-          child.forceOpen = true; // يفتح الكل دايمًا
-          if (child.children) openAll(child.children);
+          child.collapsed = false
+          if (child.children) openAll(child.children)
         }
-      };
-      openAll(tree);
+      }
+      openAll(tree)
+      return tree
     },
   }),
+
 
   ],
   right: [
@@ -78,18 +80,19 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
       }),
+      
   Component.Explorer({
-    title: "", // شيل العنوان
-    filterFn: undefined, 
+    title: "",
+    filterFn: undefined,
     mapFn: (tree) => {
       const openAll = (node: Record<string, any>) => {
         for (const child of Object.values(node)) {
-          child.collapsed = false;
-          child.forceOpen = true; // يفتح الكل دايمًا
-          if (child.children) openAll(child.children);
+          child.collapsed = false
+          if (child.children) openAll(child.children)
         }
-      };
-      openAll(tree);
+      }
+      openAll(tree)
+      return tree
     },
   }),
 

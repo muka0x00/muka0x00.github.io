@@ -1,14 +1,21 @@
-@use "./base.scss";
-
-// put your custom CSS here!
-
 
 .explorer .toggle {
   display: none !important;
 }
 
 
-.explorer .explorer-item {
-  padding-left: 0.5rem !important;
+.explorer > h3 {
+  display: none !important;
+}
+
+
+.explorer {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+
+.explorer .collapsed {
+  display: block !important;
 }
 
