@@ -18,14 +18,9 @@ title: muka’s Blog
 
 ---
 
-## 🌍 Visit the Blog
-👉 [https://0xmuka.github.io](https://0xmuka.github.io)
-
----
-
 ## ⚡ About Me
 - 🧑‍💻 Software Engineer | Penetration tester
 - 📍 Based in Terminal  
 - 💬 Always learning, building, and breaking stuff  
 
-📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/0xmuka/) | [GitHub](https://github.com/0xmuka)
+📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/0xmuka/) | [GitHub](https://github.com/0xmuka) | [Youtube]()  | [X - Twitter](https://x.com/muka0x00)
