@@ -2,7 +2,7 @@
 title: "muka's Blog" 
 ---
 
-## Welcome to Oxmuka's digital space.
+## Welcome to muka's Blog.
 #### a place where I share my journey through code, security, and curiosity
 
 ![[Pasted image 20251014095014.png]]
