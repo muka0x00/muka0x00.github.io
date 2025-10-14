@@ -3,6 +3,10 @@ title: "muka's Blog"
 description: "Welcome to Oxmuka's digital space. a place where I share my journey through code, security, and curiosity."
 ---
 
+## Welcome to Oxmuka's digital space.
+ 
+#### a place where I share my journey through code, security, and curiosity
+
 ![[Pasted image 20251014095014.png]]
 
 
