@@ -2,16 +2,11 @@
 title: muka’s Blog
 ---
 
-> [!NOTE] No Excuses!
-> **وَما نَيلُ المَطالِبِ بِالتَمَنّي · وَلَكِن تُؤخَذُ الدُنيا غِلابا.**
-> 
-> **وَما اِستَعصى عَلى قَومٍ مَنالٌ · إِذا الإِقدامُ كانَ لَهُم رِكابا**
-> 
+## `Welcome` to **0xmuka’s digital space** — a place where I share my journey through **code, security, and curiosity**.  
+
 
 ![[Pasted image 20251014095014.png]]
 
-`Welcome` to **0xmuka’s digital space** — a place where I share my journey through **code, security, and curiosity**.  
-I write about what I learn, build, break, and sometimes completely mess up.  
 
 ---
 
