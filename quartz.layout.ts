@@ -42,11 +42,17 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "",
-          mapFn: (tree) => {
-        for (const node of Object.values(tree)) {
-            node.collapsed = false; 
-        }
-    },
+      mapFn: (tree) => {
+        const openAll = (node: Record<string, any>) => {
+          for (const child of Object.values(node)) {
+            child.collapsed = false;
+            if (child.children) {
+              openAll(child.children);
+            }
+          }
+        };
+        openAll(tree);
+      },
     }),
   ],
   right: [
@@ -73,11 +79,17 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "",
-          mapFn: (tree) => {
-        for (const node of Object.values(tree)) {
-            node.collapsed = false; 
-        }
-    },
+      mapFn: (tree) => {
+        const openAll = (node: Record<string, any>) => {
+          for (const child of Object.values(node)) {
+            child.collapsed = false; 
+            if (child.children) {
+              openAll(child.children);
+            }
+          }
+        };
+        openAll(tree);
+      },
     }),
   ],
   right: [],
