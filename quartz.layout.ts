@@ -42,6 +42,11 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "",
+          mapFn: (tree) => {
+        for (const node of Object.values(tree)) {
+            node.collapsed = false; 
+        }
+    },
     }),
   ],
   right: [
@@ -68,6 +73,11 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "",
+          mapFn: (tree) => {
+        for (const node of Object.values(tree)) {
+            node.collapsed = false; 
+        }
+    },
     }),
   ],
   right: [],
