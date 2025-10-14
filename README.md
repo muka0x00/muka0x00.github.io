@@ -1,9 +1,5 @@
-# Welcome To My Blog
-
-> **“Hack everything. Fear nothing.”**
-> 
-> **“You are the hunter. Everything else is prey.”**
-> 
-> **“No fear. No mercy. Just hunt.”**
-> 
+---
+title: "Readme" 
+description: "Welcome to Oxmuka's digital space. a place where I share my journey through code, security, and curiosity."
+---
 
