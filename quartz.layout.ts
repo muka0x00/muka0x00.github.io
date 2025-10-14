@@ -44,6 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
   Component.Explorer({
     title: "",
     filterFn: undefined,
+    folderClickBehavior: "link", 
     mapFn: (tree) => {
       const openAll = (node: Record<string, any>) => {
         for (const child of Object.values(node)) {
@@ -84,6 +85,7 @@ export const defaultListPageLayout: PageLayout = {
   Component.Explorer({
     title: "",
     filterFn: undefined,
+    folderClickBehavior: "link", 
     mapFn: (tree) => {
       const openAll = (node: Record<string, any>) => {
         for (const child of Object.values(node)) {
