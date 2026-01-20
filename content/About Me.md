@@ -7,8 +7,6 @@ This blog is not about theory-only content. It focuses on **how attackers think*
 
 ---
 
-## About Me
-
 I’m an offensive security enthusiast with a strong background in:
 
 - Web & API security
