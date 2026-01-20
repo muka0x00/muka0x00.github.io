@@ -4,11 +4,14 @@ longform:
   title: web Application
   workflow: Default Workflow
   sceneFolder: /
-  scenes: []
+  scenes:
+    - Reconnaissance
+    - testing
+    - like
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 description:
 tags:
 draft:
 ---
-dddddddddddddddddddd
+![[Pasted image 20260120214503.png]]

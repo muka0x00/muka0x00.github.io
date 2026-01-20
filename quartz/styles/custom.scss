@@ -3,3 +3,10 @@
 // put your custom CSS here!
 
 
+
+/* إظهار الإحصائيات والملفات (تأكيد ظهورها) */
+.page-header .content-meta {
+  visibility: visible;
+  display: block !important;
+}
+
