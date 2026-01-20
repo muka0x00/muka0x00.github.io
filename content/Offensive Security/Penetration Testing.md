@@ -6,4 +6,4 @@ longform:
 
 Go to: [Web Application Penetration Testing](Offensive-Security/web-Application/Index)
 
-![[Pasted image 20260120223426.png]]
+![[Pasted image 20260120224053.png]]
