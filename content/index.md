@@ -1,0 +1,26 @@
+---
+title: "muka's Blog" 
+---
+
+## Welcome to muka's Blog.
+#### a place where I share my journey through code, security, and curiosity
+
+![[Pasted image 20251014095014.png]]
+
+
+---
+
+## 🧠 Topics I Explore
+- Web Security & Ethical Hacking  
+- Backend Development (PHP, Python, Node.js)  
+- Linux, Networking & CTFs  
+- Random tech experiments & notes  
+
+---
+
+## ⚡ About Me
+- 🧑‍💻 Software Engineer | Penetration tester
+- 📍 Based in Terminal  
+- 💬 Always learning, building, and breaking stuff  
+
+📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/muka0x00/) | [GitHub](https://github.com/muka0x00) | [Youtube](https://www.youtube.com/@0xmuka)  | [X - Twitter](https://x.com/muka0x00)
