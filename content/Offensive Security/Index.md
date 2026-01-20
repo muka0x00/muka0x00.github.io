@@ -8,4 +8,6 @@ longform:
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 ---
-![[Pasted image 20260120214516.png]]
+
+
+

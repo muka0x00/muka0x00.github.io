@@ -14,4 +14,4 @@ description:
 tags:
 draft:
 ---
-![[Pasted image 20260120214503.png]]
+![[Pasted image 20260120222521.png]]
