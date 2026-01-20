@@ -1,11 +1,13 @@
 ---
-title: About Me
+title: about me
 ---
 Welcome to my **Blog** — a space where I document my journey, research, and hands-on experience in offensive security.
 
 This blog is not about theory-only content. It focuses on **how attackers think**, **how systems fail**, and **how to break things responsibly in order to secure them better**.
 
 ---
+
+## About Me
 
 I’m an offensive security enthusiast with a strong background in:
 

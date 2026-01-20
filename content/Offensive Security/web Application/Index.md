@@ -7,7 +7,6 @@ longform:
   scenes:
     - Reconnaissance
     - testing
-    - like
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 description:
