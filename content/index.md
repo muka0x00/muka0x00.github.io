@@ -1,7 +1,6 @@
 ---
 title: "muka's Blog" 
 ---
-
 ## Welcome to muka's Blog.
 #### a place where I share my journey through code, security, and curiosity
 
