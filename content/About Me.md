@@ -37,9 +37,6 @@ You’ll find content related to:
 - **Bug Bounty Write-ups**  
     Realistic attack paths, methodology, and impact-driven reports
     
-- **Reverse Engineering & Binary Analysis**  
-    Static & dynamic analysis, tooling, crackme-style learning
-    
 - **Linux & OS Internals**  
     Permissions, processes, memory, privilege escalation basics
     
