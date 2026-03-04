@@ -4,8 +4,7 @@ longform:
   title: Offensive Security
   workflow: Default Workflow
   sceneFolder: /
-  scenes:
-    - Penetration Testing Introduction
+  scenes: []
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 ---
